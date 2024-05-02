@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+.body {
+    font-family: "Teatchers", sans-serif;
+    color: #604E4E;
+
+    min-height: 100%;
+    min-width: 100%;
+
+    background-color: #FCD0CF;
+    margin: 0;
+    padding: 0;
+
+    align-content: center;
+}
+
+.canva {
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+    height: 80%;
+    width: 90%;
+
+    margin-left: 5%;
+
+    background-color: #E5E5E5;
+
+    border-radius: 15px;
+}
+
+.up_info {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    font-size: 5v;
+
+    background-color: #FCD0CF;
+    border-radius: 15px;
+    width: 60%;
+    height: 80%;
+
+    align-self: center;
+    margin-left: 50px;
+}
+
+.up_info_left {
+    height: 100%;
+    align-content: center;
+
+    padding-left: 50px;
+    
+}
+
+.imagem {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 200px;
+}
+
+.down_info {
+    background-color: #FCD0CF;
+    width: 60%;
+    height: 80%;
+
+    margin-left: 50px;
+    align-self: center;
+}
